@@ -70,9 +70,52 @@ video {
  */
 
 fieldset {
-  border: 0;
-  margin: 0;
-  padding: 0;
+  border: 1px black solid;
+  margin: .4rem;
+  padding: 1%;
+}
+
+.downloadButton {
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  left: 50%;
+}
+
+.fieldset0 {
+  border: 1px black solid;
+  margin: .4rem;
+  padding: 0.5%;
+}
+
+.fieldset1 {
+  border: 1px black solid;
+  margin: .4rem;
+  padding: 0.5%;
+}
+
+.fieldset2 {
+  border: 1px black dotted;
+  margin: .4rem;
+  padding: 0.5%;
+}
+
+.legend0 {
+  font-size: larger;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.legend1 {
+  font-size: large;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.legend2 {
+  font-size: medium;
+  padding-left: 1%;
+  padding-right: 1%;
 }
 
 /*
